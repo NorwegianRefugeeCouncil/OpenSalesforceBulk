@@ -73,13 +73,13 @@ class PublishCommand(Command):
         sys.exit()
 
 setup(
-    name='salesforce-bulk',
+    name='open-salesforce-bulk',
     version=about['__version__'],
-    description='Python interface to the Salesforce.com Bulk API.',
+    description='Humanitarian Fork copy of original (now-unmaintained) Heroku Python interface to the Salesforce.com Bulk API.',
     long_description=long_description,
-    author='Scott Persinger',
-    author_email='scottp@heroku.com',
-    url='https://github.com/heroku/salesforce-bulk',
+    author='Scott Persinger, Robert Focke',
+    author_email='robert.focke@nrc.no',
+    url='https://github.com/NorwegianRefugeeCouncil/OpenSalesforceBulk',
     packages=packages,
     package_data={'': ['LICENSE']},
     include_package_data=True,
